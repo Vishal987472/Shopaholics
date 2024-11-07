@@ -63,7 +63,7 @@
 
 6. click on new at side navbar.
 
-7. give a database name as (onlineshop) hit on create button.
+7. give a database name as (Shopaholics) hit on create button.
 
 8. after creating database name click on import.
 
