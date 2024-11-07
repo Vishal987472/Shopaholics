@@ -111,9 +111,9 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 	} else {
 		
 		$sql = "INSERT INTO `user_info` 
-		(`user_id`, `first_name`, `last_name`, `email`, 
+		(`first_name`, `last_name`, `email`, 
 		`password`, `mobile`, `address1`, `address2`) 
-		VALUES (NULL, '$f_name', '$l_name', '$email', 
+		VALUES ('$f_name', '$l_name', '$email', 
 		'$password', '$mobile', '$address1', '$address2')";
 		$run_query = mysqli_query($con,$sql);
 		$_SESSION["uid"] = mysqli_insert_id($con);
